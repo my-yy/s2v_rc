@@ -36,12 +36,11 @@ dataset/
 ├── split_mfcc_dict.pkl
 └── split_mfcc_mean_std.pkl
 ```
+We also provided some speech sentence segment exmaples in `SentenceSegmentExamples.zip`.
 
 This [instruction](jupyters/01_Instruction.ipynb) describes how we generated those files.
 
-We also provided some speech sentence segment exmaples in `SentenceSegmentExamples.zip`:
 
-![](./jupyters/figs/1_segment_example.png)
 
 ## Training
 
