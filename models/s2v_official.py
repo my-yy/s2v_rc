@@ -96,17 +96,12 @@ class Decoder(nn.Module):
         self.out = nn.Linear(self.hidden_size, self.target_size)
 
     def forward(self, encoder_every_step_hidden_state_list, encoder_hidden_state_and_cell_state_tuple, target_tensor, target_length):
-        # 输入目标内容
-        # 最开始的输入是全0向量
         batch_size, max_seq_length, target_mfcc_dim = target_tensor.shape
 
-        # 解码目标,用于存储临时变量
         decoder_outputs = torch.zeros(max_seq_length, batch_size, target_mfcc_dim).cuda()
 
-        # 把seq_length放到第一的位置
         target_tensor = target_tensor.transpose(0, 1)
 
-        # 初始化：
         last_step_output = torch.zeros(batch_size, target_mfcc_dim).float().cuda()
         last_step_hidden_tuple = encoder_hidden_state_and_cell_state_tuple
         for i in range(max_seq_length):
@@ -118,7 +113,6 @@ class Decoder(nn.Module):
 
         decoder_outputs = decoder_outputs.transpose(0, 1)
 
-        # 将多余的位置变为0
         target_length_array = target_length.detach().numpy()
         for i in range(len(target_length)):
             vec = decoder_outputs[i]
@@ -194,12 +188,11 @@ class ModelWrapper():
     def load_model(self, resume_path):
         checkpoint = torch.load(resume_path)
         start_epoch = checkpoint['epoch'] + 1
-        # 因为模型是保存完毕后存储的
         self.encoder.load_state_dict = checkpoint['encoder_dict']
         self.decoder.load_state_dict(checkpoint['decoder_dict'])
         self.encoder_optimizer.load_state_dict(checkpoint['encoder_opt'])
         self.decoder_optimizer.load_state_dict(checkpoint['decoder_opt'])
-        print("加载checkpoint:", resume_path)
+        print("resume from:", resume_path)
         return start_epoch
 
 
