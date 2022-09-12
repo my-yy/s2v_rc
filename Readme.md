@@ -7,9 +7,8 @@
 - Pytorch Version >= 1.8.2
 
 ## Data
-Download the data from [Google Drive](https://drive.google.com/drive/folders/1KSWCSttpPOHVaJXJxuqv7U-GCa1n2wJ4?usp=sharing) (2.8GB).
-
-Place them into the `dataset` folder. The final structure is shown below:
+Download the `dataset.zip` (2.4GB) from [Google Drive](https://drive.google.com/drive/folders/1KSWCSttpPOHVaJXJxuqv7U-GCa1n2wJ4?usp=sharing).
+Unzip it to the project root. Its structure is shown below:
 
 ```
 dataset/
@@ -38,7 +37,11 @@ dataset/
 └── split_mfcc_mean_std.pkl
 ```
 
-This [instruction](jupyters/01_Instruction.ipynb) describes how we generated those files.  
+This [instruction](jupyters/01_Instruction.ipynb) describes how we generated those files.
+
+We also provided some speech sentence segment exmaples in `SentenceSegmentExamples.zip`:
+
+![](./jupyters/figs/1_segment_example.png)
 
 ## Training
 
