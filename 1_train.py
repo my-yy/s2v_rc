@@ -2,7 +2,7 @@ import time
 from loaders import s2v_loader
 from loaders.s2v_create_emb_dict_loader import get_word2arrays
 from models import s2v_official
-from utils import myparser, seed_util, wb_util, pickle_util, my_git
+from utils import myparser, seed_util, wb_util, pickle_util
 from torch.utils.data import DataLoader
 import os
 import numpy as np
@@ -75,7 +75,6 @@ def train():
                     "train/total_time": total_time,
                 }
                 wb_util.log(obj)
-                my_git.commit_v2(args)
                 wb_util.init(args)
                 print(obj)
         after_one_epoch(epoch, train_epoch_loss_arr)
