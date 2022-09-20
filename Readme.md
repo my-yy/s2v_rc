@@ -66,5 +66,9 @@ The full training process (500-epoch) takes 8.4 days on an AMD 3900XT + RTX3090 
 
 
 ## CheckPoints & Embeddings
-The model checkpoints and embeddings of every epoch will be released soon...
+The checkpoints and embeddings of every epoch is in `Full500EpochModelsEmbedings.zip` (2.9GB)
+
+The `Rand Init` model corresponds to: `epoch-01_ws0.10_men0.08_loss-1.000000.pkl`
+
+The `500-Epoch` model corresponds to: `epoch499_ws0.15_men0.08_loss0.247943.pkl`
 
