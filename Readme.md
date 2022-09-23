@@ -82,7 +82,7 @@ This report has nothing to do with my institution (RUC). It's only because I'm c
 
 The idea, experiment, and writing were all by myself. The experimental device was purchased at my own expense💰.
 
-The plural form "we\ ours\ us" in this report was just thinking there would be someone to share. However, it turned out that no one was willing to take the risk. Even though they were the ones who assigned me the research of Semantic Speech Embedding in 2018😌. 
+The plural form "we\ ours\ us" in this report was just thinking there would be someone to share. However, it turned out that no one was willing to take the risk. Even though they were the ones who assigned me the research task of Semantic Speech Embedding in 2018😌. 
 
 After all, it's not their time that was wasted🤗.
 
