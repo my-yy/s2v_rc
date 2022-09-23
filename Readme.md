@@ -1,14 +1,17 @@
 # Speech2Vec Reality Check
+
 > Code for "Homophone Reveals the Truth: A Reality Check for Speech2Vec"
 > 
 > Paper: [Latest Version (9.24)](https://safe-liar.oss-cn-beijing.aliyuncs.com/Homophone-v9.23.pdf) 
 
 ## Requirements
+
 - Free GPU RAM >= 3GB
 - Free System RAM >= 30GB
 - Pytorch Version >= 1.8.2
 
 ## Data
+
 Download the `dataset.zip` (2.4GB) from [Google Drive](https://drive.google.com/drive/folders/1KSWCSttpPOHVaJXJxuqv7U-GCa1n2wJ4?usp=sharing).
 Unzip it to the project root. Its structure is shown below:
 
@@ -38,11 +41,10 @@ dataset/
 ├── split_mfcc_dict.pkl
 └── split_mfcc_mean_std.pkl
 ```
+
 We also provided some speech sentence segment exmaples in `SentenceSegmentExamples.zip`.
 
 This [instruction](jupyters/01_Instruction.ipynb) describes how we generated those files.
-
-
 
 ## Training
 
@@ -55,22 +57,42 @@ The full training process (500-epoch) takes 8.4 days on an AMD 3900XT + RTX3090 
 *use [wandb](https://wandb.ai) to view the training process:*
 
 1. Create  `.wb_config.json`  file in the project root, using the following content:
-
+   
    ```
    {
      "WB_KEY": "Your wandb auth key"
    }
    ```
 
-   
-
 2. add `--dryrun=False` to the training command, for example:   `python 1_train.py --dryrun=False`
 
-
 ## CheckPoints & Embeddings
+
 The checkpoints and embeddings of every epoch are in `Full500EpochModelsEmbedings.zip` (2.9GB)
 
 The `Rand Init` model corresponds to: `epoch-01_ws0.10_men0.08_loss-1.000000.pkl`
 
 The `500-Epoch` model corresponds to: `epoch499_ws0.15_men0.08_loss0.247943.pkl`
 
+## Statement
+
+I would like to see anyone come forward with counterarguments to my report, and **show me the code** to prove Speech2Vec's validity. I'll be very happy to see that I was wrong.
+
+This report has nothing to do with my institution (RUC). It's only because I'm currently studying here.
+
+The idea, experiment, and writing were all by myself. The experimental device was purchased at my own expense💰.
+
+The plural form "we\ ours\ us" in this report was just thinking there would be someone to share. However, it turned out that no one was willing to take the risk. Even though they were the ones who assigned me the research of Semantic Speech Embedding in 2018😌. 
+
+After all, it's not their time that was wasted🤗.
+
+I will still use the plural form because I decide to make my cat `YY' the co-author.
+
+
+
+Feel free to contact me:
+
+Email:  hcs@ruc.edu.cn 
+
+WeChat: 
+<img src="https://cdn.huacishu.com/img/202209240747994.jpeg" title="" alt="" width="212">
