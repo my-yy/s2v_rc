@@ -1,5 +1,5 @@
 # Speech2Vec Reality Check
-> Code for "Homophone Reveals the Truth: A Reality Check for Speech2Vec"
+> Code for [Homophone Reveals the Truth: A Reality Check for Speech2Vec](https://arxiv.org/abs/2209.10791)
 
 ## Requirements
 - Free GPU RAM >= 3GB
@@ -66,7 +66,7 @@ The full training process (500-epoch) takes 8.4 days on an AMD 3900XT + RTX3090 
 
 
 ## CheckPoints & Embeddings
-The checkpoints and embeddings of every epoch is in `Full500EpochModelsEmbedings.zip` (2.9GB)
+The checkpoints and embeddings of every epoch are in `Full500EpochModelsEmbedings.zip` (2.9GB)
 
 The `Rand Init` model corresponds to: `epoch-01_ws0.10_men0.08_loss-1.000000.pkl`
 
