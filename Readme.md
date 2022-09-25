@@ -78,18 +78,6 @@ The `500-Epoch` model corresponds to: `epoch499_ws0.15_men0.08_loss0.247943.pkl`
 
 I would like to see anyone come forward with counterarguments to my report, and **show me the code** to prove Speech2Vec's validity. I'll be very happy to see that I was wrong.
 
-This report has nothing to do with my institution (RUC). It's only because I'm currently studying here.
-
-The idea, experiment, and writing were all by myself. The experimental device was purchased at my own expense💰.
-
-The plural form "we\ ours\ us" in this report was just thinking there would be someone to share. However, it turned out that no one was willing to take the risk. Even though they were the ones who assigned me the research task of Semantic Speech Embedding in 2018😌. 
-
-After all, it's not their time that was wasted🤗.
-
-I will still use the plural form because I decide to make my cat `YY' the co-author.
-
-
-
 Feel free to contact me:
 
 Email:  hcs@ruc.edu.cn 
