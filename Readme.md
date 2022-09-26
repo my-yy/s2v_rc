@@ -1,8 +1,6 @@
 # Speech2Vec Reality Check
 
-> Code for "Homophone Reveals the Truth: A Reality Check for Speech2Vec"
-> 
-> Paper: [Latest Version (9.24)](https://safe-liar.oss-cn-beijing.aliyuncs.com/Homophone-v9.23.pdf) 
+> Code for "[Homophone Reveals the Truth: A Reality Check for Speech2Vec](https://arxiv.org/abs/2209.10791)"
 
 ## Requirements
 
