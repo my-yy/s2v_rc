@@ -1,7 +1,7 @@
 # Speech2Vec Reality Check
 
-> Code for "[Homophone Reveals the Truth: A Reality Check for Speech2Vec](https://arxiv.org/abs/2209.10791)"
-
+> Code for "[Homophone Reveals the Truth: A Reality Check for Speech2Vec](https://arxiv.org/abs/2209.10791)"  
+> A brief version of this report has been accepted by ICASSP-2023: "A Reality Check and A Practical Baseline for Semantic Speech Embedding"
 ## Requirements
 
 - Free GPU RAM >= 3GB
@@ -72,13 +72,9 @@ The `Rand Init` model corresponds to: `epoch-01_ws0.10_men0.08_loss-1.000000.pkl
 
 The `500-Epoch` model corresponds to: `epoch499_ws0.15_men0.08_loss0.247943.pkl`
 
-## Statement
-
-I would like to see anyone come forward with counterarguments to my report, and **show me the code** to prove Speech2Vec's validity. I'll be very happy to see that I was wrong.
-
-Feel free to contact me:
-
-Email:  hcs@ruc.edu.cn 
-
-WeChat: 
-<img src="https://cdn.huacishu.com/img/202209240747994.jpeg" title="" alt="" width="212">
+## Contact
+<!-- I would like to see anyone come forward with counterarguments to my report, and **show me the code** to prove Speech2Vec's validity. I'll be very happy to see that I was wrong. -->
+Feel free to contact me if you have any question:  
+Email:  my@huacishu.com  
+WeChat:
+<img src="https://cdn.huacishu.com/img/202209240747994.jpeg" title="" alt="" width="120">
